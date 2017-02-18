@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>La Petite Ecole du Samedi - São Paulo </title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Sacramento" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='style.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div id="header">
+      <h1>La Petite Ecole du Samedi</h1>
+      <p>L'école pour enfants francophones non scolarisés en français</p>
+      <p>
+        <a class="btn btn-lg btn-default" href="mailto:lapetiteecoledusamedi@gmail.com"> <img src="images/Chouette.png" alt="Chouette">En savoir plus</a>
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card text-center">
+            <img src="images/globe.svg" alt="diamond" width="100">
+            <h2>Une école pour les enfants francophones</h2>
+            <p>L'école s'adresse aux enfants de parents francophones qui sont scolarisés localement dans une autre langue que le français.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card text-center">
+            <img src="images/chat.svg" alt="briefcase" width="100">
+            <h2>Une immersion culturelle complète</h2>
+            <p>A la petite école du samedi, tout le monde ne parle que le français. Meilleur moyen d'améliorer compréhension et expression des enfants à tout âge.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card text-center">
+            <img src="images/home.svg" alt="heart" width="100">
+            <h2>Un lieu idéal pour apprendre</h2>
+            <p>Nous occupons l'espace d'une école After School qui accueille des enfants la semaine. Située au coeur de Pinheiros, l'espace est idéal avec un atelier, un jardin et une bibliotèque.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="card text-center">
+            <img src="images/heart.svg" alt="laptop" width="100">
+            <h2>Une équipe pédagogique expérimentée</h2>
+            <p>Créée en 2012 par une maman enseignante, la pédagogie s'inspire des méthodes des écoles maternelles et primaires françaises telle que la méthode Boscher.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="map" style="width: 100%; height: 400px;">
+    </div>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCN9hAwGE7EE3iZ6nCywziLAleQYSBHZOE&callback=initMap"></script>
+
+    <script type="text/javascript">
+    var myLatlng = new google.maps.LatLng(-23.546072, -46.707745);
+
+    var myOptions = {
+      zoom: 16,
+      center: myLatlng,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      styles: [] // TODO: replace [] by array from https://snazzymaps.com/
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "La Petite Ecole - After School, c'est là !"
+    });
+    </script>
+
+    <div id="footer">
+      <p>
+        Nous contacter
+        <ul class="list-inline">
+            <li><a href="https://www.facebook.com/LaPetiteEcoleDuSamedi"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="mailto:lapetiteecoledusamedi@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="tel:+5511974973020"><i class="fa fa-whatsapp"></i></a></li>
+        </ul>
+      </p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+body{
+  background: rgb(245,245,245);
+  color: grey;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+
+h1{
+  font-family: 'Sacramento', sans-serif;
+  color:#2ECC71;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+  color: yellow;
+}
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#header{
+  text-align: center;
+  background-image: url("images/pexels-photo-226588.jpeg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}
+#header h1 {
+  color: white;
+  font-size: 50px;
+}
+#header p {
+  color: rgb(230,230,230);
+  font-size: 17px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
