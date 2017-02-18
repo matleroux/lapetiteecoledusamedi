@@ -49,29 +49,7 @@
       </div>
     </div>
 
-    <div id="map" style="width: 100%; height: 400px;">
-    </div>
-
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCN9hAwGE7EE3iZ6nCywziLAleQYSBHZOE&callback=initMap"></script>
-
-    <script type="text/javascript">
-    var myLatlng = new google.maps.LatLng(-23.546072, -46.707745);
-
-    var myOptions = {
-      zoom: 16,
-      center: myLatlng,
-      scrollwheel: false,
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      styles: [] // TODO: replace [] by array from https://snazzymaps.com/
-    };
-
-    var map = new google.maps.Map(document.getElementById('map'), myOptions);
-    var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: "La Petite Ecole - After School, c'est là !"
-    });
-    </script>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6209660933073!2d-46.70995538502253!3d-23.54613138469034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57cd14cf1723%3A0x1785170e10ef90c8!2sR.+Greg%C3%B3rio+Paes+de+Almeida%2C+622+-+Vila+Madalena%2C+S%C3%A3o+Paulo+-+SP%2C+Brasil!5e0!3m2!1spt-BR!2sus!4v1487445714605" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     <div id="footer">
       <p>
