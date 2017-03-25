@@ -1,5 +1,5 @@
 body{
-  background: rgb(245,245,245);
+  background: white;
   color: grey;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
@@ -16,7 +16,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   color: grey;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 21px;
 }
 a {
   color: yellow;
@@ -31,7 +31,7 @@ a:hover {
   text-align: center;
   background-image: url("images/pexels-photo-226588.jpeg");
   background-size: cover;
-  padding: 150px;
+  padding: 120px;
   color: white;
 }
 #header h1 {
@@ -49,14 +49,23 @@ a:hover {
   color: lightgrey;
 }
 .card{
-  padding: 50px;
+  padding: 25px;
   font-weight: lighter;
+  margin-bottom: 70px;
 }
 
 #footer a {
   color: lightgrey;
-  font-size: 15px;
+  font-size: 25px;
 }
 #footer a:hover {
   color: white;
+}
+
+.wrapper {
+  background-color: rgb(250,250,250);
+  margin: 15px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  border-radius: 5px;
 }
