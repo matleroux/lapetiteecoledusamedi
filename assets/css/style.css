@@ -21,7 +21,7 @@
     font-family: 'Lato', sans-serif;
 }
 body {
-	background: #fff;
+	background: white;
 	margin: 0;
 	color: #5a5a5a;
 }
@@ -124,7 +124,7 @@ input {
 	padding: 15px 30px 16px;
 	border: 1px solid #b9b9af;
 	margin-bottom: 10px;
-	background-color: #fff;
+	background-color:white;
 	opacity: 0.9;
 	-webkit-transition: background-color 0.2s;
 	transition: background-color 0.2s;
@@ -173,7 +173,7 @@ input {
 
 .btn-green {
 	background: #98f478;
-	color: white
+	color: rgb(250,250,250)
 }
 
 /* HEADER SECTION */
@@ -219,12 +219,12 @@ input {
 }
 
 #h .social a {
-	color: white;
+	color: rgb(250,250,250);
 }
 
 #h h1 {
 	font-weight: 700;
-	color: white;
+	color: rgb(250,250,250);
 	font-size: 40px;
 }
 
@@ -328,11 +328,11 @@ ul {
 /* GREEN SECTION - TESTIMONIAL */
 
 #green {
-	padding-top: 90px;
+	padding-top: 60px;
 	padding-bottom: 60px;
 	min-height: 300px;
-	background: #98f478;
-	color: white;
+	background: white;
+	color: rgb(10,10,10);
 }
 
 #green tgr {
@@ -345,7 +345,7 @@ ul {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background: #2f2f2f;
-	color: white;
+	color: rgb(250,250,250);
 }
 
 #f h5 {
